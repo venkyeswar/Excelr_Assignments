@@ -6,7 +6,8 @@
 
 
 ## Overview
-This project aims to predict the survival of passengers aboard the Titanic using machine learning techniques(logestic Regression). By analyzing historical passenger data, the project builds a predictive model to estimate the likelihood of survival for each passenger based on various features.
+This project aims to predict the survival of passengers aboard the Titanic using machine learning techniques(logestic Regression).
+By analyzing historical passenger data, the project builds a predictive model to estimate the likelihood  of survival for each passenger based on various features.
 
 ## Project Objectives
 -  Analyze Titanic passenger data to understand survival patterns.
