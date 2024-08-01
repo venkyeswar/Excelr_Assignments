@@ -12,7 +12,6 @@ def user_inputs():
     Age = st.sidebar.number_input("Age",max_value=90,step=1)
     SibSp = st.sidebar.number_input("No.of Siblings (SibSp)",step=1,value=0)
     Parch = st.sidebar.number_input("No.of parent childs(Parch)",step=1,value=0)
-    Fare = st.sidebar.number_input("Fare in $ ")
     Pclass = st.sidebar.selectbox("Pclass",("1","2","3"))
     Sex = st.sidebar.selectbox("Sex- male(1) female(0)",("1","0"))
     Embarked = st.sidebar.selectbox("Embarked",("Q","S","C"))
@@ -31,11 +30,9 @@ def user_inputs():
         "Age":Age,
         "SibSp":SibSp,
         "Parch":Parch,
-        "Fare":Fare,
-  
         "Pclass_2":Pclass_2,
         "Pclass_3":Pclass_3,
-        "Sex_male":Sex,
+        "Sex":Sex,
         "Embarked_Q":Embarked_Q,
         "Embarked_S":Embarked_S,
         
@@ -71,7 +68,7 @@ def predict():
         predict = "Not Survived"
     else:
         predict = "Survived"
-    
+
     with result_container:
         st.subheader("Prediction")
         st.write(predict)
