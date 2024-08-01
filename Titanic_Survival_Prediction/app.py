@@ -9,9 +9,9 @@ st.markdown("<center><h2 style='color:#8C3061'>Titanic Survival Prediction</h2><
 st.sidebar.header("User Input Parameters")
 
 def user_inputs():
-    Age = st.sidebar.number_input("Age",max_value=90,step=1)
-    SibSp = st.sidebar.number_input("No.of Siblings (SibSp)",step=1,value=0)
-    Parch = st.sidebar.number_input("No.of parent childs(Parch)",step=1,value=0)
+    Age = st.sidebar.number_input("Age",max_value=90,step=1,min_value=0)
+    SibSp = st.sidebar.number_input("No.of Siblings (SibSp)",step=1,value=0,min_value=0)
+    Parch = st.sidebar.number_input("No.of parent childs(Parch)",step=1,value=0,min_value=0)
     Pclass = st.sidebar.selectbox("Pclass",("1","2","3"))
     Sex = st.sidebar.selectbox("Sex- male(1) female(0)",("1","0"))
     Embarked = st.sidebar.selectbox("Embarked",("Q","S","C"))
