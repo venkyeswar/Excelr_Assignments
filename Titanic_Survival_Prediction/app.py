@@ -17,8 +17,8 @@ def user_inputs():
     Embarked = st.sidebar.selectbox("Embarked",("Q","S","C"))
     
    
-    Pclass_2 = 1 if Pclass == 2 else 0
-    Pclass_3 = 1 if Pclass == 3 else 0
+    Pclass_2 = 1 if Pclass == "2"  else 0
+    Pclass_3 = 1 if Pclass == "3" else 0
 
     Sex = int(Sex)
 
