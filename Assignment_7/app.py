@@ -1,8 +1,8 @@
 import streamlit as st
 import pickle
 import pandas as pd
-loaded_model = pickle.load(open("model.sav","rb"))
-loaded_scaler = pickle.load(open("scaler.sav","rb"))
+loaded_model = pickle.load(open("./models/model.sav","rb"))
+loaded_scaler = pickle.load(open("./models/scaler.sav","rb"))
 
 st.markdown("<center><h1 style='color:#522258'>Logistic Regression</h1></center>",unsafe_allow_html=True)
 st.markdown("<center><h2 style='color:#8C3061'>Titanic Survival Prediction</h2></center>",unsafe_allow_html=True)
