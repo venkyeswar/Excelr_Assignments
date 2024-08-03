@@ -1,5 +1,6 @@
+# Assignment 3
 
-# Python Programming Assignment
+## Python Programming Assignment
 
 This repository contains the solutions to the Python programming assignment. The assignment consists of five exercises, each addressing a specific programming task. Below is an overview of each exercise and the corresponding solution.
 
