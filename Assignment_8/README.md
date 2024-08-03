@@ -1,5 +1,5 @@
 # Assignment 8
-## Clustering Analysis Project
+## Clustering Analysis
 
 ## Overview
 This project involves performing clustering analysis using three different clustering techniques: Hierarchical Clustering, K-Means Clustering, and DBSCAN. The goal is to classify customer data from East-West Airlines into similar groups based on flying patterns, earnings, use of frequent flyer rewards, and credit card usage.
